@@ -1,6 +1,8 @@
 import prompt
 from brain_games.game_modules import calc_game
 from brain_games.game_modules import is_even_game
+from brain_games.game_modules import gcd_game
+
 
 CYCLE = 3
 GREETINGS = "Welcome to the Brain Games!"
@@ -11,6 +13,8 @@ def game_function(flag):
         game = calc_game
     if flag == 'is_even':
         game = is_even_game
+    if flag == 'gcd':
+        game = gcd_game
     else:
         pass
 

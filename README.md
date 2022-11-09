@@ -11,3 +11,6 @@ https://asciinema.org/connect/3e43b195-5b86-4feb-a74b-3cec201e73a3>
 
 https://asciinema.org/a/wTMLSbS6aW53bddIHpdnUj4j6
 ### Демонстрация изменённой is_even_game (Общий движок с calc_game)
+
+https://asciinema.org/a/IDRwCwUaACqCxhU1GBZyxi5Ts
+### Демонстрация игры "Угадай наибольший общий делитель"
