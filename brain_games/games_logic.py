@@ -2,6 +2,7 @@ import prompt
 from brain_games.game_modules import calc_game
 from brain_games.game_modules import is_even_game
 from brain_games.game_modules import gcd_game
+from brain_games.game_modules import progression_game
 
 
 CYCLE = 3
@@ -15,6 +16,8 @@ def game_function(flag):
         game = is_even_game
     if flag == 'gcd':
         game = gcd_game
+    if flag == 'progression':
+        game = progression_game
     else:
         pass
 

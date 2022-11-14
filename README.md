@@ -14,3 +14,6 @@ https://asciinema.org/a/wTMLSbS6aW53bddIHpdnUj4j6
 
 https://asciinema.org/a/IDRwCwUaACqCxhU1GBZyxi5Ts
 ### Демонстрация игры "Угадай наибольший общий делитель"
+
+https://asciinema.org/a/s1xWJOVQrjGCX0cusX8PJjSpd
+### Демонстрация игры "Арифметическая прогрессия"
