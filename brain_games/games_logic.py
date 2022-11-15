@@ -3,6 +3,7 @@ from brain_games.game_modules import calc_game
 from brain_games.game_modules import is_even_game
 from brain_games.game_modules import gcd_game
 from brain_games.game_modules import progression_game
+from brain_games.game_modules import is_prime_game
 
 
 CYCLE = 3
@@ -18,6 +19,8 @@ def game_function(flag):
         game = gcd_game
     if flag == 'progression':
         game = progression_game
+    if flag == 'is_prime':
+        game = is_prime_game
     else:
         pass
 
