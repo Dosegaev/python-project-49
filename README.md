@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a
 
-https://asciinema.org/a/WEGTozvi09hX3AtshHwfl5yrB
+<a href="https://asciinema.org/a/qqKG4KScF53MOh7m43MHD4OFV" target="_blank"><img src="https://asciinema.org/a/qqKG4KScF53MOh7m43MHD4OFV.svg" /></a>
 ### Моя первая публикация. Демонстрация игры even_game
 
 https://asciinema.org/connect/3e43b195-5b86-4feb-a74b-3cec201e73a3>
