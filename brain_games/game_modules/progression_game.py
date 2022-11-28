@@ -22,9 +22,10 @@ def generate_progression():
 
 
 def get_results():
-    question = generate_progression()
-    x_number = choice(question)
-    correct_index = question.index(x_number)
-    question[correct_index] = ".."
+    list = generate_progression()
+    x_number = choice(list)
+    correct_index = list.index(x_number)
+    list[correct_index] = ".."
     correct_answer = str(x_number)
+    question = str(list)[1: -1]
     return question, correct_answer
