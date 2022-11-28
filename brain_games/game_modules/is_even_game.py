@@ -4,7 +4,7 @@ from random import randint
 OBJECTIVE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def calculations():
+def get_results():
     random_number = randint(1, 100)
     question = random_number
     if random_number % 2 == 0:

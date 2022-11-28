@@ -1,11 +1,11 @@
 #!/usr/bin/env/python
 
 
-from brain_games.games_logic import game_function
+from brain_games.games_logic import launch_the_script
 
 
 def main():
-    game_function('is_even')
+    launch_the_script('is_even')
 
 
 if __name__ == '__main__':

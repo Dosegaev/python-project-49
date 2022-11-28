@@ -10,7 +10,7 @@ CYCLE = 3
 GREETINGS = "Welcome to the Brain Games!"
 
 
-def game_function(flag):
+def launch_the_script(flag):
     if flag == 'calc':
         game = calc_game
     if flag == 'is_even':
@@ -31,7 +31,7 @@ def game_function(flag):
     index = 0
 
     while index < CYCLE:
-        question, correct_answer = game.calculations()
+        question, correct_answer = game.get_results()
         print(f'Question: {question}')
         user_answer = input('Answer:  ')
         if user_answer == correct_answer:

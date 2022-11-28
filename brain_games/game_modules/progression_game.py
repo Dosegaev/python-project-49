@@ -10,7 +10,7 @@ STEP_STOP = 100
 LENGTH = 10
 
 
-def progression():
+def generate_progression():
     start = randint(FIRST_NUMBER, LAST_NUMBER)
     step = randint(STEP_START, STEP_STOP)
     stop = start + (LENGTH * step)
@@ -21,8 +21,8 @@ def progression():
     return list
 
 
-def calculations():
-    question = progression()
+def get_results():
+    question = generate_progression()
     x_number = choice(question)
     correct_index = question.index(x_number)
     question[correct_index] = ".."

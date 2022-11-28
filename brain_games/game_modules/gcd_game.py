@@ -5,7 +5,7 @@ import math
 OBJECTIVE = 'Find the greatest common divisor of given numbers.'
 
 
-def calculations():
+def get_results():
     first_value = randint(1, 100)
     second_value = randint(1, 100)
     question = (f'{first_value}, {second_value}')
