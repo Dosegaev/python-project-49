@@ -4,9 +4,9 @@ from random import choice
 
 OBJECTIVE = 'What number is missing in the progression?'
 FIRST_NUMBER = 1
-LAST_NUMBER = 1000
+LAST_NUMBER = 100
 STEP_START = 1
-STEP_STOP = 100
+STEP_STOP = 21
 LENGTH = 10
 
 
@@ -23,9 +23,7 @@ def generate_progression():
 
 def get_results():
     list = generate_progression()
-    x_number = choice(list)
-    correct_index = list.index(x_number)
-    list[correct_index] = ".."
-    correct_answer = str(x_number)
-    question = str(list)[1: -1]
-    return question, correct_answer
+    correct_answer = choice(list)
+    question = ' '.join([
+        '..' if number == correct_answer else str(number) for number in list])
+    return question, str(correct_answer)
