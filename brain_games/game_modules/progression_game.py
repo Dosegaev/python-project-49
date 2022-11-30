@@ -1,5 +1,6 @@
 from random import randint
 from random import choice
+from brain_games.games_logic import launch_the_script
 
 
 OBJECTIVE = 'What number is missing in the progression?'
@@ -27,3 +28,7 @@ def get_results():
     question = ' '.join([
         '..' if number == correct_answer else str(number) for number in list])
     return question, str(correct_answer)
+
+
+def starting():
+    launch_the_script(OBJECTIVE, get_results)

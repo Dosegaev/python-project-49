@@ -1,4 +1,5 @@
 from random import randint
+from brain_games.games_logic import launch_the_script
 
 
 OBJECTIVE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -24,3 +25,7 @@ def calc(question):
         if question % item == 0:
             return False
     return True
+
+
+def starting():
+    launch_the_script(OBJECTIVE, get_results)

@@ -1,5 +1,6 @@
 from random import choice
 from random import randint
+from brain_games.games_logic import launch_the_script
 
 
 OBJECTIVE = 'What is the result of the expression?'
@@ -22,3 +23,7 @@ def calc(first_value, second_value, operator):
     elif operator == '*':
         result = int(first_value * second_value)
     return result
+
+
+def starting():
+    launch_the_script(OBJECTIVE, get_results)

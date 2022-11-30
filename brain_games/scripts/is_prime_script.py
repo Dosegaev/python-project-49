@@ -1,11 +1,11 @@
-#!/usr/bin/env/python
+#!/usr/bin/env python
 
 
-from brain_games.games_logic import launch_the_script
+from brain_games.game_modules.is_prime_game import starting
 
 
 def main():
-    launch_the_script('is_prime')
+    starting()
 
 
 if __name__ == '__main__':
