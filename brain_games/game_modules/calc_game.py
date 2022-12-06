@@ -1,12 +1,11 @@
 from random import choice
 from random import randint
-from brain_games.games_logic import launch_the_script
 
 
 OBJECTIVE = 'What is the result of the expression?'
 
 
-def get_results():
+def get_question_answer():
     first_value = randint(1, 10)
     second_value = randint(1, 10)
     operator = choice(['-', '+', '*', ])
@@ -17,13 +16,9 @@ def get_results():
 
 def calc(first_value, second_value, operator):
     if operator == '-':
-        result = (first_value - second_value)
+        result = first_value - second_value
     elif operator == '+':
-        result = (first_value + second_value)
+        result = first_value + second_value
     elif operator == '*':
-        result = int(first_value * second_value)
+        result = first_value * second_value
     return result
-
-
-def starting():
-    launch_the_script(OBJECTIVE, get_results)

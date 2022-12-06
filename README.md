@@ -17,9 +17,6 @@ List of games:
 ### Maintainability Badge:
 <a href="https://codeclimate.com/github/Dosegaev/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/4ff21ef602080a2d7c7c/maintainability" /></a>
 
-### Test Coverage Badge:
-<a href="https://codeclimate.com/github/Dosegaev/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4ff21ef602080a2d7c7c/test_coverage" /></a>
-
 ### Game "even_game" demo:
 <a href="https://asciinema.org/a/qqKG4KScF53MOh7m43MHD4OFV" target="_blank"><img src="https://asciinema.org/a/qqKG4KScF53MOh7m43MHD4OFV.svg" /></a>
 
