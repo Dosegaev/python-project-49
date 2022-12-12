@@ -1,15 +1,17 @@
-Project name:
-Brain games from Hexlet school
+Project #1
 
-Objective of the project:
+Project name: 
+Brain games by Hexlet school
+
+Objective of the project:  
 Implement five mathematical mini-games, each of which is launched according to a separate scenario and at the same time united by a common game logic module
 
-List of games:
-"Checking a Number for Even"
-"Calculator"
-"Finding the Greatest Common Divisor"
-"Progression"
-"Guess if the number is prime"
+List of games: 
+"Checking a Number for Even" 
+"Calculator" 
+"Finding the Greatest Common Divisor" 
+"Progression" 
+"Guess if the number is prime" 
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Dosegaev/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Dosegaev/python-project-49/actions)
