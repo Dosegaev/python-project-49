@@ -5,7 +5,7 @@ CYCLE = 3
 GREETINGS = "Welcome to the Brain Games!"
 
 
-def launch_the_game(objective: str, get_question_answer: tuple):
+def launch_the_game(objective: str, get_question_answer: callable):
     print(GREETINGS)
     user_name = (prompt.string("May I have your name? "))
     print(f"Hello, {user_name}!")
